@@ -19,7 +19,7 @@ LINK_WHITELIST: "youtube.com,github.com",
 
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
-    LINK_ACTION: "kick", // "kick", "mute", or "none"
+    LINK_ACTION: "none", // "kick", "mute", or "none"
 
         AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
