@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~4qFjBIKb#VoxHtqvTgxgMFncg75vkIbcygoCHRxMnmypSreJEKHY",
+SESSION_ID: process.env.SESSION_ID || "malvin~czlmBDpJ#J2sh993ysZB6mvRhTWCtCwETC2opbP8r-LXb5HRDhXY",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -34,13 +34,13 @@ LINK_WHITELIST: "youtube.com,github.com",
 // set the auto reply massage on status reply  
 
 
-       WELCOME: process.env.WELCOME || "false",
+       WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups 
    
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 
-      ANTI_LINK: process.env.ANTI_LINK || "false",
+      ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
       MENTION_REPLY: process.env.MENTION_REPLY || "false",
@@ -65,7 +65,7 @@ LINK_WHITELIST: "youtube.com,github.com",
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
 
-          DELETE_LINKS: process.env.DELETE_LINKS || "true",
+          DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
           OWNER_NUMBER: process.env.OWNER_NUMBER || "26371475XXXX",
